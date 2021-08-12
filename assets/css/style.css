@@ -865,23 +865,25 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Features
+# Techonogies
 --------------------------------------------------------------*/
-.features .icon-box {
+.techonogies .icon-box {
   display: flex;
   align-items: center;
   padding: 20px;
   background: #f6f6f6;
   transition: ease-in-out 0.3s;
+  justify-content: center;
+
 }
 
-.features .icon-box i {
+.techonogies .icon-box i {
   font-size: 32px;
   padding-right: 10px;
   line-height: 1;
 }
 
-.features .icon-box h3 {
+.techonogies .icon-box h3 {
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -889,16 +891,16 @@ section {
   font-size: 16px;
 }
 
-.features .icon-box h3 a {
+.techonogies .icon-box h3 a {
   color: #222222;
   transition: ease-in-out 0.3s;
 }
 
-.features .icon-box h3 a:hover {
+.techonogies .icon-box h3 a:hover {
   color: #3498db;
 }
 
-.features .icon-box:hover {
+.techonogies .icon-box:hover {
   background: #eef7fc;
 }
 
