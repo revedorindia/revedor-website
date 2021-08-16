@@ -1,9 +1,11 @@
-/**
-* Template Name: Vesperr - v2.3.1
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+ // Popup
+ function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+function togglePopup2(){
+  document.getElementById("popup-2").classList.toggle("active");
+}
+
 !(function($) {
   "use strict";
 
@@ -195,6 +197,7 @@
     items: 1
   });
 
+ 
   // Init AOS
   function aos_init() {
     AOS.init({
@@ -209,3 +212,11 @@
   });
 
 })(jQuery);
+
+ // Popup
+ function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+function togglePopup2(){
+  document.getElementById("popup-2").classList.toggle("active");
+}
