@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   margin-top: 90px;
 }
 
@@ -550,6 +550,7 @@ section {
 .clients {
   background: #f3f9fd;
   padding: 10px 0;
+  padding-bottom: 4%;
   text-align: center;
 }
 
