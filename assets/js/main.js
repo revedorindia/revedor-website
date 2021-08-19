@@ -1,11 +1,3 @@
- // Popup
- function togglePopup(){
-  document.getElementById("popup-1").classList.toggle("active");
-}
-function togglePopup2(){
-  document.getElementById("popup-2").classList.toggle("active");
-}
-
 !(function($) {
   "use strict";
 
@@ -201,9 +193,10 @@ function togglePopup2(){
   // Init AOS
   function aos_init() {
     AOS.init({
+      offset: 130,
       duration: 1000,
       easing: "ease-in-out",
-      once: true,
+      once: false,
       mirror: false
     });
   }
