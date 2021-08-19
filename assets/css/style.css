@@ -557,16 +557,21 @@ section {
 .clients .col-lg-4 {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .clients img {
-  width: 20%;
+  width: 30%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 10px 0;
 }
 
+@media (min-width: 1200px) {
+  #clients .container {
+    max-width: 1200px;
+  }
+  
+}
 
 @media (max-width: 768px) {
   .clients img {
