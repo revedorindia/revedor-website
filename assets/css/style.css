@@ -557,6 +557,8 @@ section {
 .clients .col-lg-4 {
   display: flex;
   align-items: center;
+  justify-content: center;
+
 }
 
 .clients img {
