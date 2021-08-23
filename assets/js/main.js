@@ -108,7 +108,7 @@ function togglePopup2(){
         main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
       }
       if (cur_pos < 300) {
-        $(".nav-menu ul:first li:first").addClass('active');
+        $(".nav-menu ul:first li:last").addClass('active');
       }
     });
   });
