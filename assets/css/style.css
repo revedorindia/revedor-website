@@ -530,7 +530,8 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
+  margin: 35px  0;
   overflow: hidden;
 }
 
@@ -544,7 +545,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -834,13 +835,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# More Services
+# Projects
 --------------------------------------------------------------*/
-.more-services {
+.projects {
   padding-top: 20px;
 }
 
-.more-services .card {
+.projects .card {
   border: 0;
   padding: 160px 20px 20px 20px;
   position: relative;
@@ -850,7 +851,7 @@ section {
   background-position: center center;
 }
 
-.more-services .card-body {
+.projects .card-body {
   z-index: 10;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px 30px;
@@ -860,21 +861,21 @@ section {
   border-radius: 5px;
 }
 
-.more-services .card-title {
+.projects .card-title {
   font-weight: 700;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.more-services .card-title a {
+.projects .card-title a {
   color: #222222;
 }
 
-.more-services .card-text {
+.projects .card-text {
   color: #5e5e5e;
 }
 
-.more-services .read-more a {
+.projects .read-more a {
   color: #777777;
   text-transform: uppercase;
   font-weight: 600;
@@ -882,15 +883,15 @@ section {
   transition: 0.4s;
 }
 
-.more-services .read-more a:hover {
+.projects .read-more a:hover {
   text-decoration: underline;
 }
 
-.more-services .card:hover .card-body {
+.projects .card:hover .card-body {
   background: #3498db;
 }
 
-.more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
+.projects .card:hover .read-more a, .projects .card:hover .card-title, .projects .card:hover .card-title a, .projects .card:hover .card-text {
   color: #fff;
 }
 
@@ -1319,6 +1320,7 @@ section {
 
 .contact .info {
   color: #444444;
+  font-size: 20px;
 }
 
 .contact .info i {
@@ -1331,7 +1333,7 @@ section {
 .contact .info p {
   padding: 0 0 10px 42px;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .contact .php-email-form .validate {
