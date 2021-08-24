@@ -100,7 +100,10 @@
         main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
       }
       if (cur_pos < 300) {
-        $(".nav-menu ul:first li:last").addClass('active');
+        $(".nav-menu ul:first li:first").addClass('active');
+      }
+      if (cur_pos < 300) {
+        $(".nav-menu ol:first li:last").addClass('active');
       }
     });
   });
