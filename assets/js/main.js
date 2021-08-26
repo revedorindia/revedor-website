@@ -196,7 +196,7 @@
   // Init AOS
   function aos_init() {
     AOS.init({
-      offset: 130,
+      offset: 100,
       duration: 1000,
       easing: "ease-in-out",
       once: false,
