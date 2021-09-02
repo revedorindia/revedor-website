@@ -212,7 +212,30 @@
  // Popup
  function togglePopup(){
   document.getElementById("popup-1").classList.toggle("active");
+  document.body.style.overflow = "hidden";
+  document.getElementById("back-to-top").hidden = true;
 }
-function togglePopup2(){
+function closepopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+  document.body.style.overflow = "auto";
+  document.getElementById("back-to-top").hidden = false;
+}
+ function togglePopup2(){
   document.getElementById("popup-2").classList.toggle("active");
+  document.body.style.overflow = "hidden";
+  document.getElementById("back-to-top").hidden = true;
 }
+function closepopup2(){
+  document.getElementById("popup-2").classList.toggle("active");
+  document.body.style.overflow = "auto";
+  document.getElementById("back-to-top").hidden = false;
+
+}
+
+
+// function togglePopup2(){
+//   document.getElementById("popup-2").classList.toggle("active");
+//   var x=window.scrollX;
+//   var y=window.scrollY;
+//   window.onscroll=function(){window.scrollTo(x, y);}
+// }

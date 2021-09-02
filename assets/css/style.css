@@ -8,6 +8,8 @@ body {
 
 a {
   color: #3498db;
+  text-decoration: none;
+
 }
 
 a:hover {
@@ -1492,6 +1494,11 @@ section {
  
 .popup.active .overlay {
   display:block;
+  overflow: hidden;
+}
+ 
+.popup.active body {
+  overflow: hidden;
 }
  
 .popup.active .content {
@@ -1505,6 +1512,11 @@ section {
 @media (max-width: 767px){
   #careers .banner-img img{ 
   padding: 7% 0;
+  }
+}
+@media (max-width: 1199px){
+  #career-page .row{ 
+  padding: 10% 0;
   }
 }
 
@@ -1538,7 +1550,29 @@ section {
   #carousel-inner .text {
     padding: 15% 1%;
   }
+  
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  #carousel-inner img{
+    padding: 35% 1%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  #carousel-inner .row{
+    padding: 20% 0%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  #carousel-inner .row{
+    padding: 10% 0%;
+  }
+}
+@media(max-width: 767px) {
+  #carousel-inner .row{
+    padding: 9% 0%;
+  }
+}
+
 @media (max-width: 768px) {
   .container-career{
     margin: 0 8%;

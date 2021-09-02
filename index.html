@@ -40,7 +40,7 @@
         <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
-      <nav class="nav-menu d-none d-lg-block">
+      <nav class="nav-menu d-none d-lg-block" id="nav-menu">
         <ul>
           <li class="active"><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -989,7 +989,7 @@
             &copy; Copyright <strong>Revedor</strong>. All Rights Reserved
           </div>
         </div>
-        <div class="col-lg-7">
+        <div class="col-lg-7 footer">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
             <a href="#hero" class="scrollto">Home</a>
             <a href="#about" class="scrollto">About</a>
@@ -999,9 +999,9 @@
             <a onclick="togglePopup()">Terms of Service</a>
             <a onclick="togglePopup2()">Privacy Policy</a>
             <div class="popup" id="popup-1">
-              <div class="overlay"></div>
+              <div class="overlay" style="overflow: hidden;"></div>
               <div class="content">
-                <div class="close-btn" onclick="togglePopup()">×</div>
+                <div class="close-btn" onclick="closepopup()">×</div>
                 <iframe src="assets/files/Terms.html"></iframe>
               </div>
             </div>
@@ -1010,7 +1010,7 @@
             <div class="popup" id="popup-2">
               <div class="overlay"></div>
               <div class="content">
-                <div class="close-btn" onclick="togglePopup2()">×</div>
+                <div class="close-btn" onclick="closepopup2()">×</div>
                 <iframe src="assets/files/Privacy.html"></iframe>
               </div>
             </div>
@@ -1022,7 +1022,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="#" class="back-to-top" id="back-to-top" style="text-decoration: none;"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
