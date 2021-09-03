@@ -1346,7 +1346,7 @@ section {
   font-size: 20px;
 }
 
-.contact .php-email-form .validate {
+/* .contact .php-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -1431,7 +1431,7 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Popup
@@ -1446,15 +1446,14 @@ section {
   z-index:1;
   display:none;
 }
- 
 .popup .content {
   position:fixed;
-  top:55%;
+  top:50%;
   left:50%;
   transform:translate(-50%,-50%) scale(0);
   background:#fff;
   max-width:91vw;
-  height:85vh;
+  height:93vh;
   z-index:2;
   padding:10px;
   padding-top: 0px;
@@ -1465,7 +1464,7 @@ section {
   justify-content: center;
   align-items: center;
   width:90vw;
-  height:84vh;
+  height: 92vh;
   overflow: auto;
   border-radius: 10px;
   border: none;
@@ -1479,8 +1478,8 @@ section {
 .popup .close-btn {
   cursor:pointer;
   position:absolute;
-  right: 15px;
-  top:15px;
+  right: 2%;
+  top: 2%;
   width:30px;
   height:30px;
   background:#222;
@@ -1507,7 +1506,7 @@ section {
 }
  
 /*--------------------------------------------------------------
-# Career Section
+# Career Section on Home page
 --------------------------------------------------------------*/
 @media (max-width: 767px){
   #careers .banner-img img{ 
